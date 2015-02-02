@@ -12,14 +12,15 @@ ifneq ("","$(wildcard $(RUMPATH)/target.mk)")
   include $(RUMPATH)/target.mk
 endif
 
-SVNPKGREPO:=https://colburne.kicks-ass.org:987/repos/packages
-REDRUMVER :=0.1.5-r23
+#PKGREPO:=https://colburne.kicks-ass.org:987/repos/packages
+#REDRUMVER :=0.1.5-r23
+
+REVISION="`git symbolic-ref HEAD 2> /dev/null | cut -b 12-`-`git log --pretty=format:\"%h\" -1`"
 
 VERSION_MAJOR = $(word 1,$(subst _, ,$(shell cat version)))
 VERSION_MINOR = $(word 2,$(subst _, ,$(shell cat version)))
 VERSION_POINT = $(word 3,$(subst _, ,$(shell cat version)))
-REVISION := $(subst :, ,$(shell svnversion -nc .))
-REVISION := $(word $(words $(REVISION)),$(REVISION))
+
 VERSION_STRING =$(VERSION_MAJOR).$(VERSION_MINOR).$(VERSION_POINT)-r$(REVISION)
 
 build:

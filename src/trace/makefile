@@ -5,6 +5,7 @@
 #
 # $Id: makefile 19 2010-04-22 08:27:08Z jason $
 
-LIBS := red
+LIBS       := red
+LIBS.linux += pthread
 
 include ../src.mk

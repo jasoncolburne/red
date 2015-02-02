@@ -25,7 +25,7 @@ RED_TEST_UNIT_IMPLEMENTATION_BEGIN( testContext );
                  "redContextCreateDefault( NULL )" );
 
   /* already initialized */
-  testRCtx = (RedContext)0x1;
+  testRCtx = (RedContext) 0x1;
   RED_TEST_CALL( redContextCreateDefault( &testRCtx ),
                  RED_ERR_INITIALIZED_POINTER,
                  "redContextCreateDefault( &rCtx ), rCtx != NULL" );

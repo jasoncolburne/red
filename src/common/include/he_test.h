@@ -17,12 +17,7 @@
 
 /* welcome to macro city:
  *
- *
- *
- *
- *
  */
-
 
 
 /**

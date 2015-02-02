@@ -18,6 +18,8 @@ redFileWrite(
     size_t      bytes
     )
 {
+  ssize_t written = -1;
+
   if (!file)
     return RED_ERR_NULL_CONTEXT;
   if (!data)
@@ -25,7 +27,9 @@ redFileWrite(
   if (!bytes)
     return RED_SUCCESS; /* TODO do we want to return an error? */
 
-  if (!write( file->fd, data, bytes ) == -1) {
+  written = write( file->fd, data, bytes );
+
+  if ( written != bytes ) {
     /* TODO: something */
     return 0x666;
   }
