@@ -1,0 +1,17 @@
+Copyright (C) 2010, Redbeard Enterprises Ltd.
+All rights reserved.
+
+$Id: changelog.txt 19 2010-04-22 08:27:08Z jason $
+
+0.1.1 (Revision ???):
+  2010-04-22 Add queues, resourcepools, stringbuffers, tracing
+             and library initialization
+  2010-04-20 Add stacks
+  2010-04-15 Add spinlocks, semaphores
+  2010-04-13 Add atomic operations
+  2010-04-13 Enhance test framework
+  2010-04-12 Switch to level 2 file descriptors for *nix
+
+0.1.0 (Revision 11):
+  2010-04-11 Basic files, streams
+  2010-04-07 Basic timing, concurrency, memory
