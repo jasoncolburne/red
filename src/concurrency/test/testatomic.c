@@ -10,7 +10,7 @@
 
 #include "red_atomic.h"
 #include "red_time.h"
-#include "_he_thread.h"
+#include "_red_thread.h"
 
 RED_TEST_UNIT_IDENTIFY( "atomic.c" );
 

@@ -7,7 +7,7 @@
  */
 
 #include "red_stringbuffer.h"
-#include "_he_stringbuffer.h"
+#include "_red_stringbuffer.h"
 
 #include "red_memory.h"
 #include "red_return.h"

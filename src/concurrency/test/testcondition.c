@@ -10,7 +10,7 @@
 
 #include "red_memory.h"
 #include "red_time.h"
-#include "_he_thread.h"
+#include "_red_thread.h"
 
 #define TEST_THREAD_COUNT 5
 #define TEST_STACK_SIZE   0x4000

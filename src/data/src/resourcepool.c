@@ -7,8 +7,8 @@
  */
 
 #include "red_resourcepool.h"
-#include "_he_resourcepool.h"
-#include "_he_context.h"
+#include "_red_resourcepool.h"
+#include "_red_context.h"
 
 #include "red_memory.h"
 #include "red_return.h"

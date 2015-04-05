@@ -7,7 +7,7 @@
  */
 
 #include "red_trace.h"
-#include "_he_trace.h"
+#include "_red_trace.h"
 
 #include "red_return.h"
 #include "red_stream.h"

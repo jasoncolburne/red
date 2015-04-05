@@ -7,7 +7,7 @@
  */
 
 #include "red_semaphore.h"
-#include "_he_semaphore.h"
+#include "_red_semaphore.h"
 
 #include "red_memory.h"
 #include "red_return.h"

@@ -2,8 +2,6 @@
  *
  * Not to be used without express written consent.
  * All rights reserved.
- *
- * $Id: testfile.c 18 2010-04-17 05:57:03Z jason $
  */
 
 #include "main.h"

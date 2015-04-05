@@ -7,7 +7,7 @@
  */
 
 #include "red_thread.h"
-#include "_he_thread.h"
+#include "_red_thread.h"
 
 #include "red_memory.h"
 #include "red_return.h"

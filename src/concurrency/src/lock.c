@@ -7,7 +7,7 @@
  */
 
 #include "red_lock.h"
-#include "_he_lock.h"
+#include "_red_lock.h"
 
 #include "red_memory.h"
 #include "red_return.h"

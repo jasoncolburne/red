@@ -11,7 +11,7 @@
 #include "red_string.h"
 
 #include "red_stream.h"
-#include "_he_stream.h"
+#include "_red_stream.h"
 
 static
 int

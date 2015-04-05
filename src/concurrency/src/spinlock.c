@@ -8,7 +8,7 @@
 
 
 #include "red_spinlock.h"
-#include "_he_spinlock.h"
+#include "_red_spinlock.h"
 
 #include "red_memory.h"
 #include "red_return.h"

@@ -9,7 +9,7 @@
 #include "main.h"
 
 #include "red_memory.h"
-#include "_he_thread.h"
+#include "_red_thread.h"
 #include "red_time.h"
 
 #define TEST_THREAD_COUNT_READER 16

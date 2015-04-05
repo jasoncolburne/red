@@ -10,8 +10,8 @@
 
 
 #include "red_initialize.h"
-#include "_he_initialize.h"
-#include "_he_trace.h"
+#include "_red_initialize.h"
+#include "_red_trace.h"
 
 #include "red_memory.h"
 #include "red_return.h"

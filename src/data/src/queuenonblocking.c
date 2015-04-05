@@ -6,7 +6,7 @@
  * $Id: queuenonblocking.c 19 2010-04-22 08:27:08Z jason $
  */
 
-#include "_he_queue.h"
+#include "_red_queue.h"
 
 #include "red_memory.h"
 #include "red_return.h"

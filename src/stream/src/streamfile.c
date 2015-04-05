@@ -7,7 +7,7 @@
  */
 
 #include "red_stream.h"
-#include "_he_stream.h"
+#include "_red_stream.h"
 
 #include "red_memory.h"
 #include "red_return.h"

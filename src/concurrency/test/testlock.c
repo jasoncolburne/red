@@ -9,7 +9,7 @@
 #include "main.h"
 
 #include "red_memory.h"
-#include "_he_thread.h"
+#include "_red_thread.h"
 
 #define TEST_THREAD_COUNT 8
 #define TEST_THREAD_LOOPS 0x2000

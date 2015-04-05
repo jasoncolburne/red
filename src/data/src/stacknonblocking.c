@@ -6,7 +6,7 @@
  * $Id: stacknonblocking.c 19 2010-04-22 08:27:08Z jason $
  */
 
-#include "_he_stack.h"
+#include "_red_stack.h"
 
 #include "red_memory.h"
 #include "red_return.h"
