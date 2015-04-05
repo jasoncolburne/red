@@ -12,16 +12,13 @@ ifneq ("","$(wildcard $(RUMPATH)/target.mk)")
   include $(RUMPATH)/target.mk
 endif
 
-#PKGREPO:=https://colburne.kicks-ass.org:987/repos/packages
-#REDRUMVER :=0.1.5-r23
-
 REVISION="`git symbolic-ref HEAD 2> /dev/null | cut -b 12-`-`git log --pretty=format:\"%h\" -1`"
 
 VERSION_MAJOR = $(word 1,$(subst _, ,$(shell cat version)))
 VERSION_MINOR = $(word 2,$(subst _, ,$(shell cat version)))
 VERSION_POINT = $(word 3,$(subst _, ,$(shell cat version)))
 
-VERSION_STRING =$(VERSION_MAJOR).$(VERSION_MINOR).$(VERSION_POINT)-r$(REVISION)
+VERSION_STRING =$(VERSION_MAJOR).$(VERSION_MINOR).$(VERSION_POINT)
 
 build:
 	@$(MAKE) -w -C src
@@ -31,10 +28,6 @@ test: build
 	@$(MAKE) -w -C src test
 
 prepare:
-	: fetching redrum...
-	@svn export $(SVNPKGREPO)/redrum/redrum-$(REDRUMVER).zip
-	@unzip redrum-$(REDRUMVER).zip
-	@rm -rf redrum-$(REDRUMVER).zip
 #	@make -w -C pkg prepare
 
 dist:
