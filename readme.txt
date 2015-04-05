@@ -19,6 +19,6 @@ src $ git clone git@github.com:redbeardenterprises/redrum.git
 red $ cp ../redrum/release/redrum-0.1.7-linux64_x86-release.zip .
 red $ unzip redrum-0.1.7-linux64_x86-release.zip
 
-4. Make distributable library for release:
+4. Run tests
 
-red $ make dist
+red $ make test

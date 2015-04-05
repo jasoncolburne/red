@@ -6,7 +6,9 @@
 
 #include "main.h"
 
+#if 0
 RED_TEST_UNIT_IDENTIFY( "file.c" );
+#endif
 
 RED_TEST_UNIT_IMPLEMENTATION_BEGIN( testFile );
 
