@@ -8,8 +8,8 @@
 
 #include "_he_queue.h"
 
-#include "he_memory.h"
-#include "he_return.h"
+#include "red_memory.h"
+#include "red_return.h"
 
 static
 int

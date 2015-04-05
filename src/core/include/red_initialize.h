@@ -10,7 +10,7 @@
 #define __HE_INITIALIZE_H__
 
 
-#include "he_context.h"
+#include "red_context.h"
 
 #ifdef __cplusplus
 extern "C" {

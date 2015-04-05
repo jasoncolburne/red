@@ -10,9 +10,9 @@
 #define ___HE_INITIALIZE_H__
 
 
-#include "he_context.h"
-#include "he_queue.h"
-#include "he_thread.h"
+#include "red_context.h"
+#include "red_queue.h"
+#include "red_thread.h"
 
 
 #ifdef __cplusplus

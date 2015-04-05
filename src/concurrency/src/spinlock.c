@@ -7,11 +7,11 @@
  */
 
 
-#include "he_spinlock.h"
+#include "red_spinlock.h"
 #include "_he_spinlock.h"
 
-#include "he_memory.h"
-#include "he_return.h"
+#include "red_memory.h"
+#include "red_return.h"
 
 int
 redSpinlockCreate(

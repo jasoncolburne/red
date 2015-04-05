@@ -8,9 +8,9 @@
 
 #include "main.h"
 
-#include "he_memory.h"
+#include "red_memory.h"
 #include "_he_thread.h"
-#include "he_time.h"
+#include "red_time.h"
 
 #define TEST_THREAD_COUNT_READER 16
 #define TEST_THREAD_COUNT_WRITER 3

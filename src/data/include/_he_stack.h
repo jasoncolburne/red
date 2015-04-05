@@ -9,10 +9,10 @@
 #ifndef ___HE_STACK_H__
 #define ___HE_STACK_H__
 
-#include "he_stack.h"
+#include "red_stack.h"
 
-#include "he_spinlock.h"
-#include "he_semaphore.h"
+#include "red_spinlock.h"
+#include "red_semaphore.h"
 
 #ifdef __cplusplus
 extern "C" {

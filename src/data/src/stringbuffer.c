@@ -6,12 +6,12 @@
  * $Id: stringbuffer.c 19 2010-04-22 08:27:08Z jason $
  */
 
-#include "he_stringbuffer.h"
+#include "red_stringbuffer.h"
 #include "_he_stringbuffer.h"
 
-#include "he_memory.h"
-#include "he_return.h"
-#include "he_string.h"
+#include "red_memory.h"
+#include "red_return.h"
+#include "red_string.h"
 
 int
 redStringBufferCreate(

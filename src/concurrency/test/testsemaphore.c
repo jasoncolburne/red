@@ -8,8 +8,8 @@
 
 #include "main.h"
 
-#include "he_semaphore.h"
-#include "he_time.h"
+#include "red_semaphore.h"
+#include "red_time.h"
 
 RED_TEST_UNIT_IDENTIFY( "testsemaphore.c" );
 

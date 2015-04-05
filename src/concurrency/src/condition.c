@@ -6,11 +6,11 @@
  * $Id: condition.c 20 2010-04-23 01:46:23Z jason $
  */
 
-#include "he_condition.h"
+#include "red_condition.h"
 #include "_he_condition.h"
 
-#include "he_memory.h"
-#include "he_return.h"
+#include "red_memory.h"
+#include "red_return.h"
 
 int
 redConditionCreate(

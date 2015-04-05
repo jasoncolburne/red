@@ -10,12 +10,12 @@
 #define ___HE_STRINGBUFFER_H__
 
 
-#include "he_stringbuffer.h"
-#include "he_spinlock.h"
-#include "he_queue.h"
-#include "he_resourcepool.h"
+#include "red_stringbuffer.h"
+#include "red_spinlock.h"
+#include "red_queue.h"
+#include "red_resourcepool.h"
 
-#include "he_context.h"
+#include "red_context.h"
 
 #ifdef __cplusplus
 extern "C" {

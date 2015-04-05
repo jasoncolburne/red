@@ -10,12 +10,12 @@
 #define __MAIN_H__
 
 
-#include "he_test.h"
+#include "red_test.h"
 
-#include "he_condition.h"
-#include "he_lock.h"
-#include "he_rwlock.h"
-#include "he_thread.h"
+#include "red_condition.h"
+#include "red_lock.h"
+#include "red_rwlock.h"
+#include "red_thread.h"
 
 RED_TEST_UNIT_PROTOTYPE( testThread );
 RED_TEST_UNIT_PROTOTYPE( testLock );

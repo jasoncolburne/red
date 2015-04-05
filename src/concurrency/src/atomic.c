@@ -6,8 +6,8 @@
  * $Id: atomic.c 20 2010-04-23 01:46:23Z jason $
  */
 
-#include "he_atomic.h"
-#include "he_return.h"
+#include "red_atomic.h"
+#include "red_return.h"
 
 #if defined (__APPLE__)
 #  include <libkern/OSAtomic.h>

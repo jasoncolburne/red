@@ -10,7 +10,7 @@
 #define __MAIN_H__
 
 
-#include "he_test.h"
+#include "red_test.h"
 
 
 RED_TEST_UNIT_PROTOTYPE( testStd );

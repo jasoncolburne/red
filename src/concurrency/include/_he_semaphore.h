@@ -10,7 +10,7 @@
 #define ___HE_SEMAPHORE_H__
 
 
-#include "he_semaphore.h"
+#include "red_semaphore.h"
 
 #if defined (__APPLE__)
 #  include <mach/task.h>

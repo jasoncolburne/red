@@ -9,8 +9,8 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
-#include "he_test.h"
-#include "he_stream.h"
+#include "red_test.h"
+#include "red_stream.h"
 
 
 RED_TEST_UNIT_PROTOTYPE( testConsole );

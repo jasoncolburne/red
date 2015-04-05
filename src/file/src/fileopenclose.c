@@ -6,11 +6,11 @@
  * $Id: fileopenclose.c 20 2010-04-23 01:46:23Z jason $
  */
 
-#include "he_file.h"
+#include "red_file.h"
 #include "_he_file.h"
 
-#include "he_memory.h"
-#include "he_return.h"
+#include "red_memory.h"
+#include "red_return.h"
 
 int
 _redFileAlloc(

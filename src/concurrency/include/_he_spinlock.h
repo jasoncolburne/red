@@ -10,7 +10,7 @@
 #define ___HE_SPINLOCK_H__
 
 
-#include "he_spinlock.h"
+#include "red_spinlock.h"
 
 #if defined (__APPLE__)
 #  include <libkern/OSAtomic.h>

@@ -6,10 +6,10 @@
  * $Id: fileopenstd.c 18 2010-04-17 05:57:03Z jason $
  */
 
-#include "he_file.h"
+#include "red_file.h"
 #include "_he_file.h"
 
-#include "he_return.h"
+#include "red_return.h"
 
 static
 int

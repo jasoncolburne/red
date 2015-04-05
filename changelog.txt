@@ -4,6 +4,7 @@ All rights reserved.
 $Id: changelog.txt 19 2010-04-22 08:27:08Z jason $
 
 0.1.1 (Revision ???):
+  2015-04-05 Change he_ header prefix back to red_
   2015-04-05 Change copyright dates
   2010-04-22 Add queues, resourcepools, stringbuffers, tracing
              and library initialization

@@ -6,10 +6,10 @@
  * $Id: filereadall.c 18 2010-04-17 05:57:03Z jason $
  */
 
-#include "he_file.h"
+#include "red_file.h"
 #include "_he_file.h"
 
-#include "he_memory.h"
+#include "red_memory.h"
 
 int
 redFileReadAllAlloc(

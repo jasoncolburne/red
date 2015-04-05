@@ -10,10 +10,10 @@
 #define __MAIN_H__
 
 
-#include "he_test.h"
+#include "red_test.h"
 
-#include "he_context.h"
-#include "he_return.h"
+#include "red_context.h"
+#include "red_return.h"
 
 
 RED_TEST_UNIT_PROTOTYPE( testContext );

@@ -6,10 +6,10 @@
  * $Id: stackblocking.c 19 2010-04-22 08:27:08Z jason $
  */
 
-#include "he_stack.h"
+#include "red_stack.h"
 #include "_he_stack.h"
 
-#include "he_return.h"
+#include "red_return.h"
 
 static
 int

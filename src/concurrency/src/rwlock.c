@@ -6,11 +6,11 @@
  * $Id: rwlock.c 21 2010-04-28 17:38:52Z jason $
  */
 
-#include "he_rwlock.h"
+#include "red_rwlock.h"
 #include "_he_rwlock.h"
 
-#include "he_memory.h"
-#include "he_return.h"
+#include "red_memory.h"
+#include "red_return.h"
 
 int
 redRWLockCreate(

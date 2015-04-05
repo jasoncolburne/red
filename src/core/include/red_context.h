@@ -10,8 +10,8 @@
 #define __HE_CONTEXT_H__
 
 
-#include "he_type.h"
-#include "he_return.h"
+#include "red_type.h"
+#include "red_return.h"
 
 #ifdef __cplusplus
 extern "C" {

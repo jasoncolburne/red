@@ -9,7 +9,7 @@
 #ifndef ___HE_RWLOCK_H__
 #define ___HE_RWLOCK_H__
 
-#include "he_context.h"
+#include "red_context.h"
 
 #include <pthread.h>
 

@@ -10,7 +10,7 @@
 #define ___HE_STREAM_H__
 
 
-#include "he_stream.h"
+#include "red_stream.h"
 
 struct _RedStream {
   red_u32              flags;

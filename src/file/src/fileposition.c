@@ -6,10 +6,10 @@
  * $Id: fileposition.c 19 2010-04-22 08:27:08Z jason $
  */
 
-#include "he_file.h"
+#include "red_file.h"
 #include "_he_file.h"
 
-#include "he_return.h"
+#include "red_return.h"
 
 int
 redFilePositionSet(

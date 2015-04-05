@@ -8,11 +8,11 @@
 
 #include "main.h"
 
-#include "he_queue.h"
-#include "he_thread.h"
+#include "red_queue.h"
+#include "red_thread.h"
 #include "_he_thread.h"
-#include "he_time.h"
-#include "he_spinlock.h"
+#include "red_time.h"
+#include "red_spinlock.h"
 
 
 RED_TEST_UNIT_IDENTIFY( "testqueue.c" );

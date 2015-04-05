@@ -6,12 +6,12 @@
  * $Id: listgivetake.c 18 2010-04-17 05:57:03Z jason $
  */
 
-#include "he_list.h"
+#include "red_list.h"
 #include "_he_list.h"
 #include "_he_collection.h"
 
-#include "he_atomic.h"
-#include "he_return.h"
+#include "red_atomic.h"
+#include "red_return.h"
 
 #if 0
 

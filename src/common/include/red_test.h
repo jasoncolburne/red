@@ -10,10 +10,10 @@
 #define __HE_TEST_H__
 
 
-#include "he_context.h"
-#include "he_initialize.h"
-#include "he_return.h"
-#include "he_stream.h"
+#include "red_context.h"
+#include "red_initialize.h"
+#include "red_return.h"
+#include "red_stream.h"
 
 /* welcome to macro city:
  *

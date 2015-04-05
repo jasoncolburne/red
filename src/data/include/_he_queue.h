@@ -9,10 +9,10 @@
 #ifndef ___HE_QUEUE_H__
 #define ___HE_QUEUE_H__
 
-#include "he_queue.h"
+#include "red_queue.h"
 
-#include "he_spinlock.h"
-#include "he_semaphore.h"
+#include "red_spinlock.h"
+#include "red_semaphore.h"
 
 #ifdef __cplusplus
 extern "C" {

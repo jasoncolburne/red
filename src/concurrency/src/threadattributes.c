@@ -6,11 +6,11 @@
  * $Id: threadattributes.c 18 2010-04-17 05:57:03Z jason $
  */
 
-#include "he_thread.h"
+#include "red_thread.h"
 #include "_he_thread.h"
 
-#include "he_memory.h"
-#include "he_return.h"
+#include "red_memory.h"
+#include "red_return.h"
 
 int
 redThreadAttributesCreate(

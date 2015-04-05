@@ -10,9 +10,9 @@
 #define __HE_STREAM_H__
 
 
-#include "he_context.h"
-#include "he_file.h"
-#include "he_memory.h"
+#include "red_context.h"
+#include "red_file.h"
+#include "red_memory.h"
 
 #include <stdarg.h>
 

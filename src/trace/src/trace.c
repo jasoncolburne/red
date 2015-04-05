@@ -6,13 +6,13 @@
  * $Id: trace.c 19 2010-04-22 08:27:08Z jason $
  */
 
-#include "he_trace.h"
+#include "red_trace.h"
 #include "_he_trace.h"
 
-#include "he_return.h"
-#include "he_stream.h"
-#include "he_string.h"
-#include "he_time.h"
+#include "red_return.h"
+#include "red_stream.h"
+#include "red_string.h"
+#include "red_time.h"
 
 #include <stdarg.h>
 #include <time.h>

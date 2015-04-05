@@ -8,8 +8,8 @@
 
 #include "main.h"
 
-#include "he_memory.h"
-#include "he_time.h"
+#include "red_memory.h"
+#include "red_time.h"
 #include "_he_thread.h"
 
 #define TEST_THREAD_COUNT 5

@@ -6,11 +6,11 @@
  * $Id: lock.c 18 2010-04-17 05:57:03Z jason $
  */
 
-#include "he_lock.h"
+#include "red_lock.h"
 #include "_he_lock.h"
 
-#include "he_memory.h"
-#include "he_return.h"
+#include "red_memory.h"
+#include "red_return.h"
 
 int
 redLockCreate(

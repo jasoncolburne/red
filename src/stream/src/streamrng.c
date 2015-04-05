@@ -6,9 +6,9 @@
  * $Id: streamrng.c 18 2010-04-17 05:57:03Z jason $
  */
 
-#include "he_stream.h"
-#include "he_return.h"
-#include "he_file.h"
+#include "red_stream.h"
+#include "red_return.h"
+#include "red_file.h"
 
 int
 redStreamCreateRNG(

@@ -10,10 +10,10 @@
 #define ___HE_RESOURCEPOOL_H__
 
 
-#include "he_resourcepool.h"
+#include "red_resourcepool.h"
 
-#include "he_stack.h"
-#include "he_queue.h"
+#include "red_stack.h"
+#include "red_queue.h"
 
 #ifdef __cplusplus
 extern "C" {

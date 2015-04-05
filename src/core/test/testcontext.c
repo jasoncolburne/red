@@ -8,7 +8,7 @@
 
 #include "main.h"
 
-#include "he_memory.h"
+#include "red_memory.h"
 
 RED_TEST_UNIT_IDENTIFY( "context.c" );
 

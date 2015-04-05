@@ -8,7 +8,7 @@
 
 #include "main.h"
 
-#include "he_memory.h"
+#include "red_memory.h"
 #include "_he_thread.h"
 
 #define TEST_THREAD_COUNT 8

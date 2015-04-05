@@ -9,7 +9,7 @@
 #ifndef __HE_TIME_H__
 #define __HE_TIME_H__
 
-#include "he_type.h"
+#include "red_type.h"
 
 #ifdef __cplusplus
 extern "C" {

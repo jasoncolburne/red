@@ -7,7 +7,7 @@
  */
 
 #include "main.h"
-#include "he_time.h"
+#include "red_time.h"
 
 RED_TEST_UNIT_IDENTIFY( "time.c" );
 

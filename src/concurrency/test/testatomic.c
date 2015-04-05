@@ -8,8 +8,8 @@
 
 #include "main.h"
 
-#include "he_atomic.h"
-#include "he_time.h"
+#include "red_atomic.h"
+#include "red_time.h"
 #include "_he_thread.h"
 
 RED_TEST_UNIT_IDENTIFY( "atomic.c" );

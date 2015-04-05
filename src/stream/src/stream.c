@@ -6,11 +6,11 @@
  * $Id: stream.c 19 2010-04-22 08:27:08Z jason $
  */
 
-#include "he_return.h"
-#include "he_memory.h"
-#include "he_string.h"
+#include "red_return.h"
+#include "red_memory.h"
+#include "red_string.h"
 
-#include "he_stream.h"
+#include "red_stream.h"
 #include "_he_stream.h"
 
 static

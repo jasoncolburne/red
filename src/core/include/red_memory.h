@@ -9,9 +9,9 @@
 #ifndef __HE_MEMORY_H__
 #define __HE_MEMORY_H__
 
-#include "he_context.h"
-#include "he_return.h"
-#include "he_type.h"
+#include "red_context.h"
+#include "red_return.h"
+#include "red_type.h"
 
 #ifdef __cplusplus
 extern "C" {

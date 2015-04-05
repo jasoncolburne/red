@@ -10,8 +10,8 @@
 #define ___HE_COLLECTION_H__
 
 
-#include "he_collection.h"
-#include "he_rwlock.h"
+#include "red_collection.h"
+#include "red_rwlock.h"
 
 #define RED_COLLECTION_KIND_SET  0x0001
 #define RED_COLLECTION_KIND_LIST 0x0002

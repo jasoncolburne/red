@@ -6,11 +6,11 @@
  * $Id: streamconsole.c 18 2010-04-17 05:57:03Z jason $
  */
 
-#include "he_stream.h"
+#include "red_stream.h"
 #include "_he_stream.h"
 
-#include "he_memory.h"
-#include "he_return.h"
+#include "red_memory.h"
+#include "red_return.h"
 
 struct _RedStreamConsoleData {
   RedFile in;

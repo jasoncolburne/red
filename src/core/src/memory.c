@@ -6,8 +6,8 @@
  * $Id: memory.c 18 2010-04-17 05:57:03Z jason $
  */
 
-#include "he_context.h"
-#include "he_memory.h"
+#include "red_context.h"
+#include "red_memory.h"
 
 #include "_he_context.h"
 

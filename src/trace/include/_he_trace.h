@@ -9,11 +9,11 @@
 #ifndef ___HE_TRACE_H__
 #define ___HE_TRACE_H__
 
-#include "he_trace.h"
+#include "red_trace.h"
 
-#include "he_context.h"
-#include "he_queue.h"
-#include "he_stringbuffer.h"
+#include "red_context.h"
+#include "red_queue.h"
+#include "red_stringbuffer.h"
 
 #ifdef __cplusplus
 extern "C" {

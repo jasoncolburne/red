@@ -9,7 +9,7 @@
 #ifndef ___HE_THREAD_H__
 #define ___HE_THREAD_H__
 
-#include "he_context.h"
+#include "red_context.h"
 
 #include <pthread.h>
 

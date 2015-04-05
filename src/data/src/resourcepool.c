@@ -6,12 +6,12 @@
  * $Id: resourcepool.c 19 2010-04-22 08:27:08Z jason $
  */
 
-#include "he_resourcepool.h"
+#include "red_resourcepool.h"
 #include "_he_resourcepool.h"
 #include "_he_context.h"
 
-#include "he_memory.h"
-#include "he_return.h"
+#include "red_memory.h"
+#include "red_return.h"
 
 static
 int

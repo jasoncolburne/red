@@ -10,8 +10,8 @@
 #define __HE_COLLECTION_H__
 
 
-#include "he_context.h"
-#include "he_iterator.h"
+#include "red_context.h"
+#include "red_iterator.h"
 
 #ifdef __cplusplus
 extern "C" {

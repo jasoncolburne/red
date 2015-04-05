@@ -6,11 +6,11 @@
  * $Id: iterator.c 18 2010-04-17 05:57:03Z jason $
  */
 
-#include "he_iterator.h"
+#include "red_iterator.h"
 #include "_he_iterator.h"
 
-#include "he_memory.h"
-#include "he_return.h"
+#include "red_memory.h"
+#include "red_return.h"
 
 int
 redIteratorCreate(

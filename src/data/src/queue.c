@@ -6,12 +6,12 @@
  * $Id: queue.c 19 2010-04-22 08:27:08Z jason $
  */
 
-#include "he_queue.h"
+#include "red_queue.h"
 #include "_he_queue.h"
 
-#include "he_memory.h"
-#include "he_return.h"
-#include "he_stream.h"
+#include "red_memory.h"
+#include "red_return.h"
+#include "red_stream.h"
 
 
 int

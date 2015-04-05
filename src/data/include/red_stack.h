@@ -10,8 +10,8 @@
 #define __HE_STACK_H__
 
 
-#include "he_context.h"
-#include "he_time.h"
+#include "red_context.h"
+#include "red_time.h"
 
 #ifdef __cplusplus
 extern "C" {

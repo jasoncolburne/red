@@ -10,9 +10,9 @@
 #define __MAIN_H__
 
 
-#include "he_test.h"
+#include "red_test.h"
 
-#include "he_trace.h"
+#include "red_trace.h"
 
 RED_TEST_UNIT_PROTOTYPE( testTraceFile );
 

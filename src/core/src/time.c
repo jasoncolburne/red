@@ -6,8 +6,8 @@
  * $Id: time.c 21 2010-04-28 17:38:52Z jason $
  */
 
-#include "he_time.h"
-#include "he_return.h"
+#include "red_time.h"
+#include "red_return.h"
 
 #include <time.h>
 #include <sys/time.h>
