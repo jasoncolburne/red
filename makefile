@@ -12,7 +12,7 @@ ifneq ("","$(wildcard $(RUMPATH)/target.mk)")
   include $(RUMPATH)/target.mk
 endif
 
-REVISION="`git symbolic-ref HEAD 2> /dev/null | cut -b 12-`-`git log --pretty=format:\"%h\" -1`"
+REVISION="`git symbolic-ref HEAD 2> /dev/null | cut -b 12-`-`git log --pretty=format:\"%h\" -1 | sed s/\"//g`"
 
 VERSION_MAJOR = $(word 1,$(subst _, ,$(shell cat version)))
 VERSION_MINOR = $(word 2,$(subst _, ,$(shell cat version)))
@@ -33,8 +33,8 @@ prepare:
 dist:
 	: creating release package...
 	@cp -f changelog.txt changelogtmp.txt
-	@$(SED_IN_PLACE) "s/???/$(REVISION)/g" changelogtmp.txt
-	@ruby $(RUMPATH)/scripts/package.rb release_manifest.yaml $(VERSION_STRING) $(RED_TARGET) $(RED_BUILD)
+	$(SED_IN_PLACE) "s/???/$(REVISION)/g" changelogtmp.txt
+	@ruby $(RUMPATH)/scripts/package.rb release_manifest.yaml $(VERSION_STRING) $(RED_BUILD) $(RED_TARGET)
 	@rm -f changelogtmp.txt
 
 %:
