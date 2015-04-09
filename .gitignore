@@ -1,1 +1,8 @@
 redrum/
+redrum*.zip
+
+pkg/
+
+**/release/
+**/debug/
+**/obj/
