@@ -14,7 +14,7 @@ configuration:
 
 contents:
  redrum:
-  - { from: src/*/include/*.h,        to: RED_TARGET/include/*,         permissions: 0440 }
-  - { from: readme.txt,               to: RED_TARGET/readme-red.txt,    permissions: 0440 }
-  - { from: changelogtmp.txt,         to: RED_TARGET/changelog-red.txt, permissions: 0440 }
-  - { from: lib/RED_TARGET_BUILD/*.a, to: RED_TARGET/lib/*,             permissions: 0440 }
+  - { from: src/*/include/*.h,		  to: RED_TARGET/RED_BUILD/include/*,         permissions: 0440 }
+  - { from: readme.txt,               	  to: RED_TARGET/RED_BUILD/readme-red.txt,    permissions: 0440 }
+  - { from: changelogtmp.txt,         	  to: RED_TARGET/RED_BUILD/changelog-red.txt, permissions: 0440 }
+  - { from: lib/RED_TARGET/RED_BUILD/*.a, to: RED_TARGET/RED_BUILD/lib/*,             permissions: 0440 }
