@@ -148,15 +148,15 @@ void _dummydFAWERPOuiurjq(void)
  */
 #define RED_ASSERT( cond, msg ) \
   do {                          \
-	redStreamPrint( conErr, 0, "%s...", msg );  \
-	if (cond)                   \
-		redStreamPrint( conErr, 0, "pass\n" );    \
-	else {                      \
-		redStreamPrint( conErr, 0, "fail [%s:%d]\n", _redTestUnitId, __LINE__ );    \
-        if(!rc)                 \
-          rc = RED_FAIL_TEST_CASE;         \
-		goto end;               \
-	}                           \
+    redStreamPrint( conErr, 0, "%s...", msg );  \
+    if (cond)                   \
+      redStreamPrint( conErr, 0, "pass\n" );    \
+    else {                      \
+      redStreamPrint( conErr, 0, "fail [%s:%d]\n", _redTestUnitId, __LINE__ );    \
+          if(!rc)                 \
+            rc = RED_FAIL_TEST_CASE;         \
+      goto end;               \
+    }                           \
   } while (0)
 
 
@@ -165,12 +165,12 @@ void _dummydFAWERPOuiurjq(void)
  */
 #define RED_ASSERT_SILENTLY( cond, msg ) \
   do {                          \
-	if (!cond) {                \
-    	redStreamPrint( conErr, 0, "%s...fail [%s:%d]\n", msg, _redTestUnitId, __LINE__ );  \
-        if(!rc)                 \
-          rc = RED_FAIL_TEST_CASE;         \
-		goto end;               \
-	}                           \
+    if (!cond) {                \
+        redStreamPrint( conErr, 0, "%s...fail [%s:%d]\n", msg, _redTestUnitId, __LINE__ );  \
+          if(!rc)                 \
+            rc = RED_FAIL_TEST_CASE;         \
+      goto end;               \
+    }                           \
   } while (0)
 
 
