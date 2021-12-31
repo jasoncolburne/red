@@ -6,8 +6,8 @@
  * $Id: _he_resourcepool.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef ___HE_RESOURCEPOOL_H__
-#define ___HE_RESOURCEPOOL_H__
+#ifndef ___RED_RESOURCEPOOL_H__
+#define ___RED_RESOURCEPOOL_H__
 
 
 #include "red_resourcepool.h"
@@ -44,4 +44,4 @@ struct _RedResourcePool {
 #endif
 
 
-#endif /* ___HE_RESOURCEPOOL_H__ */
+#endif /* ___RED_RESOURCEPOOL_H__ */

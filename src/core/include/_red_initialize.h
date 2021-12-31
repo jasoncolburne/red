@@ -6,8 +6,8 @@
  * $Id: _he_initialize.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef ___HE_INITIALIZE_H__
-#define ___HE_INITIALIZE_H__
+#ifndef ___RED_INITIALIZE_H__
+#define ___RED_INITIALIZE_H__
 
 
 #include "red_context.h"
@@ -39,4 +39,4 @@ typedef struct _RedGlobalContext* RedGlobalContext;
 #endif
 
 
-#endif /* ___HE_INITIALIZE_H__ */
+#endif /* ___RED_INITIALIZE_H__ */

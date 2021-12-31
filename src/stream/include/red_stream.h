@@ -6,8 +6,8 @@
  * $Id: he_stream.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_STREAM_H__
-#define __HE_STREAM_H__
+#ifndef __RED_STREAM_H__
+#define __RED_STREAM_H__
 
 
 #include "red_context.h"
@@ -183,4 +183,4 @@ redStreamGetFlags(
 #endif
 
 
-#endif /* __HE_STREAM_H__ */
+#endif /* __RED_STREAM_H__ */

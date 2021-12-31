@@ -6,8 +6,8 @@
  * $Id: he_test.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef __HE_TEST_H__
-#define __HE_TEST_H__
+#ifndef __RED_TEST_H__
+#define __RED_TEST_H__
 
 
 #include "red_context.h"
@@ -178,4 +178,4 @@ void _dummydFAWERPOuiurjq(void)
 /**
  */
 
-#endif /* __HE_TEST_H__ */
+#endif /* __RED_TEST_H__ */

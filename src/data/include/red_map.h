@@ -6,8 +6,8 @@
  * $Id: he_map.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_MAP_H__
-#define __HE_MAP_H__
+#ifndef __RED_MAP_H__
+#define __RED_MAP_H__
 
 
 /*
@@ -26,4 +26,4 @@
  *
  */
 
-#endif /* __HE_MAP_H__ */
+#endif /* __RED_MAP_H__ */

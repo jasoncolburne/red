@@ -6,8 +6,8 @@
  * $Id: _he_stack.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef ___HE_STACK_H__
-#define ___HE_STACK_H__
+#ifndef ___RED_STACK_H__
+#define ___RED_STACK_H__
 
 #include "red_stack.h"
 
@@ -106,4 +106,4 @@ redStackDepthNonblocking(
 #endif
 
 
-#endif /* ___HE_STACK_H__ */
+#endif /* ___RED_STACK_H__ */

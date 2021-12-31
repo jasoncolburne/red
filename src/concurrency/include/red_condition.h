@@ -6,8 +6,8 @@
  * $Id: he_condition.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_CONDITION_H__
-#define __HE_CONDITION_H__
+#ifndef __RED_CONDITION_H__
+#define __RED_CONDITION_H__
 
 
 #include "red_context.h"

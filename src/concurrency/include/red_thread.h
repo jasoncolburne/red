@@ -6,8 +6,8 @@
  * $Id: he_thread.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_THREAD_H__
-#define __HE_THREAD_H__
+#ifndef __RED_THREAD_H__
+#define __RED_THREAD_H__
 
 #include "red_context.h"
 
@@ -90,4 +90,4 @@ redThreadJoin(
 #endif
 
 
-#endif /* __HE_THREAD_H__ */
+#endif /* __RED_THREAD_H__ */

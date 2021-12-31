@@ -6,8 +6,8 @@
  * $Id: he_atomic.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_ATOMIC_H__
-#define __HE_ATOMIC_H__
+#ifndef __RED_ATOMIC_H__
+#define __RED_ATOMIC_H__
 
 
 #include "red_type.h"
@@ -94,4 +94,4 @@ redAtomicCompareAndSwapPointer(
 #endif
 
 
-#endif /* __HE_ATOMIC_H__ */
+#endif /* __RED_ATOMIC_H__ */

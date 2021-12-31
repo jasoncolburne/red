@@ -6,8 +6,8 @@
  * $Id: he_initialize.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef __HE_INITIALIZE_H__
-#define __HE_INITIALIZE_H__
+#ifndef __RED_INITIALIZE_H__
+#define __RED_INITIALIZE_H__
 
 
 #include "red_context.h"
@@ -35,4 +35,4 @@ redDeinitialize(
 #endif
 
 
-#endif /* __HE_INITIALIZE_H__ */
+#endif /* __RED_INITIALIZE_H__ */

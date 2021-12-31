@@ -6,8 +6,8 @@
  * $Id: _he_queue.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef ___HE_QUEUE_H__
-#define ___HE_QUEUE_H__
+#ifndef ___RED_QUEUE_H__
+#define ___RED_QUEUE_H__
 
 #include "red_queue.h"
 
@@ -111,4 +111,4 @@ redQueueLengthNonblocking(
 #endif
 
 
-#endif /* ___HE_QUEUE_H__ */
+#endif /* ___RED_QUEUE_H__ */

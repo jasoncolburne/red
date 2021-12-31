@@ -6,8 +6,8 @@
  * $Id: _he_collection.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef ___HE_COLLECTION_H__
-#define ___HE_COLLECTION_H__
+#ifndef ___RED_COLLECTION_H__
+#define ___RED_COLLECTION_H__
 
 
 #include "red_collection.h"
@@ -73,4 +73,4 @@ redCollectionDestroy(
 
 
 
-#endif /* ___HE_COLLECTION_H__ */
+#endif /* ___RED_COLLECTION_H__ */

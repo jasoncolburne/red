@@ -6,8 +6,8 @@
  * $Id: _he_rwlock.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef ___HE_RWLOCK_H__
-#define ___HE_RWLOCK_H__
+#ifndef ___RED_RWLOCK_H__
+#define ___RED_RWLOCK_H__
 
 #include "red_context.h"
 
@@ -19,4 +19,4 @@ struct _RedRWLock {
   RedContext       rCtx;
 };
 
-#endif /*___HE_RWLOCK_H__ */
+#endif /*___RED_RWLOCK_H__ */

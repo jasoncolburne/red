@@ -6,8 +6,8 @@
  * $Id: he_stringbuffer.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef __HE_STRINGBUFFER_H__
-#define __HE_STRINGBUFFER_H__
+#ifndef __RED_STRINGBUFFER_H__
+#define __RED_STRINGBUFFER_H__
 
 
 #include "red_context.h"
@@ -119,4 +119,4 @@ redStringBufferAdvance(
 #endif
 
 
-#endif /* __HE_STRINGBUFFER_H__ */
+#endif /* __RED_STRINGBUFFER_H__ */

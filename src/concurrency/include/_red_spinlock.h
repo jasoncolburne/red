@@ -6,8 +6,8 @@
  * $Id: _he_spinlock.h 20 2010-04-23 01:46:23Z jason $
  */
 
-#ifndef ___HE_SPINLOCK_H__
-#define ___HE_SPINLOCK_H__
+#ifndef ___RED_SPINLOCK_H__
+#define ___RED_SPINLOCK_H__
 
 
 #include "red_spinlock.h"
@@ -39,4 +39,4 @@ struct _RedSpinlock {
 #endif
 
 
-#endif /* ___HE_SPINLOCK_H__ */
+#endif /* ___RED_SPINLOCK_H__ */

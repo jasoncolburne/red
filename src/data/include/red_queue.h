@@ -6,8 +6,8 @@
  * $Id: he_queue.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef __HE_QUEUE_H__
-#define __HE_QUEUE_H__
+#ifndef __RED_QUEUE_H__
+#define __RED_QUEUE_H__
 
 
 #include "red_context.h"
@@ -89,4 +89,4 @@ redQueueLength(
 #endif
 
 
-#endif /* __HE_QUEUE_H__ */
+#endif /* __RED_QUEUE_H__ */

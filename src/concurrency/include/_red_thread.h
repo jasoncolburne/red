@@ -6,8 +6,8 @@
  * $Id: _he_thread.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef ___HE_THREAD_H__
-#define ___HE_THREAD_H__
+#ifndef ___RED_THREAD_H__
+#define ___RED_THREAD_H__
 
 #include "red_context.h"
 
@@ -31,4 +31,4 @@ struct _RedThread {
   RedContext    rCtx;
 };
 
-#endif /*___HE_THREAD_H__ */
+#endif /*___RED_THREAD_H__ */

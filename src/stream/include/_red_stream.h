@@ -6,8 +6,8 @@
  * $Id: _he_stream.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef ___HE_STREAM_H__
-#define ___HE_STREAM_H__
+#ifndef ___RED_STREAM_H__
+#define ___RED_STREAM_H__
 
 
 #include "red_stream.h"
@@ -27,4 +27,4 @@ struct _RedStream {
 };
 
 
-#endif /* ___HE_STREAM_H__ */
+#endif /* ___RED_STREAM_H__ */

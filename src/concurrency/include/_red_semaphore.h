@@ -6,8 +6,8 @@
  * $Id: _he_semaphore.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef ___HE_SEMAPHORE_H__
-#define ___HE_SEMAPHORE_H__
+#ifndef ___RED_SEMAPHORE_H__
+#define ___RED_SEMAPHORE_H__
 
 
 #include "red_semaphore.h"
@@ -40,4 +40,4 @@ struct _RedSemaphore {
 #endif
 
 
-#endif /* ___HE_SEMAPHORE_H__ */
+#endif /* ___RED_SEMAPHORE_H__ */

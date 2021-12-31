@@ -6,8 +6,8 @@
  * $Id: _he_file.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef ___HE_FILE_H__
-#define ___HE_FILE_H__
+#ifndef ___RED_FILE_H__
+#define ___RED_FILE_H__
 
 #include "red_context.h"
 #include "red_file.h"
@@ -28,4 +28,4 @@ _redFileAlloc(
     RedContext rCtx
     );
 
-#endif /* ___HE_FILE_H__ */
+#endif /* ___RED_FILE_H__ */

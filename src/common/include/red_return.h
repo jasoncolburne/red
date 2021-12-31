@@ -6,8 +6,8 @@
  * $Id: he_return.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef __HE_RETURN_H__
-#define __HE_RETURN_H__
+#ifndef __RED_RETURN_H__
+#define __RED_RETURN_H__
 
 
 #define RED_SUCCESS                      0x0
@@ -56,4 +56,4 @@
 #define RED_FAIL_OUTSTANDING_RESOURCES   (RED_ERR_BASE_DATA | 0x10)
 
 
-#endif /* __HE_RETURN_H__ */
+#endif /* __RED_RETURN_H__ */

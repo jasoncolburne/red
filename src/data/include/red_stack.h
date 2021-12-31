@@ -6,8 +6,8 @@
  * $Id: he_stack.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef __HE_STACK_H__
-#define __HE_STACK_H__
+#ifndef __RED_STACK_H__
+#define __RED_STACK_H__
 
 
 #include "red_context.h"
@@ -89,4 +89,4 @@ redStackDepth(
 #endif
 
 
-#endif /* __HE_STACK_H__ */
+#endif /* __RED_STACK_H__ */

@@ -6,8 +6,8 @@
  * $Id: he_trace.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef __HE_TRACE_H__
-#define __HE_TRACE_H__
+#ifndef __RED_TRACE_H__
+#define __RED_TRACE_H__
 
 
 
@@ -143,4 +143,4 @@ redTracePrintHex(
 #endif
 
 
-#endif /* __HE_TRACE_H__ */
+#endif /* __RED_TRACE_H__ */

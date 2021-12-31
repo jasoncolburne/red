@@ -6,8 +6,8 @@
  * $Id: he_string.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef __HE_STRING_H__
-#define __HE_STRING_H__
+#ifndef __RED_STRING_H__
+#define __RED_STRING_H__
 
 #include <stdio.h>
 #include <string.h>
@@ -23,4 +23,4 @@
 #define redStrchr    strchr
 #define redStrlen    strlen
 
-#endif /* __HE_STRING_H__ */
+#endif /* __RED_STRING_H__ */

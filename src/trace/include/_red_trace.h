@@ -6,8 +6,8 @@
  * $Id: _he_trace.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef ___HE_TRACE_H__
-#define ___HE_TRACE_H__
+#ifndef ___RED_TRACE_H__
+#define ___RED_TRACE_H__
 
 #include "red_trace.h"
 
@@ -57,4 +57,4 @@ redGlobalContextTraceQueueGet(
 #endif
 
 
-#endif /* ___HE_TRACE_H__ */
+#endif /* ___RED_TRACE_H__ */

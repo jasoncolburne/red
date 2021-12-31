@@ -6,8 +6,8 @@
  * $Id: he_list.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_LIST_H__
-#define __HE_LIST_H__
+#ifndef __RED_LIST_H__
+#define __RED_LIST_H__
 
 
 #include "red_collection.h"
@@ -85,4 +85,4 @@ redListTakeTail(
  *
  */
 
-#endif /* __HE_LIST_H__ */
+#endif /* __RED_LIST_H__ */

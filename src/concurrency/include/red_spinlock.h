@@ -6,8 +6,8 @@
  * $Id: he_spinlock.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_SPINLOCK_H__
-#define __HE_SPINLOCK_H__
+#ifndef __RED_SPINLOCK_H__
+#define __RED_SPINLOCK_H__
 
 
 #include "red_context.h"
@@ -52,4 +52,4 @@ redSpinlockGive(
 #endif
 
 
-#endif /* __HE_SPINLOCK_H__ */
+#endif /* __RED_SPINLOCK_H__ */

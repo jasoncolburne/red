@@ -6,8 +6,8 @@
  * $Id: he_time.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_TIME_H__
-#define __HE_TIME_H__
+#ifndef __RED_TIME_H__
+#define __RED_TIME_H__
 
 #include "red_type.h"
 
@@ -73,4 +73,4 @@ redTimeNowPrecise(
 #endif
 
 
-#endif /* __HE_TIME_H__ */
+#endif /* __RED_TIME_H__ */

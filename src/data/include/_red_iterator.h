@@ -6,8 +6,8 @@
  * $Id: _he_iterator.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef ___HE_ITERATOR_H__
-#define ___HE_ITERATOR_H__
+#ifndef ___RED_ITERATOR_H__
+#define ___RED_ITERATOR_H__
 
 
 #include "red_iterator.h"
@@ -43,4 +43,4 @@ redIteratorCreate(
 #endif
 
 
-#endif /* ___HE_ITERATOR_H__ */
+#endif /* ___RED_ITERATOR_H__ */

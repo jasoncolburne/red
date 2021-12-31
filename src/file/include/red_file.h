@@ -6,8 +6,8 @@
  * $Id: he_file.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_FILE_H__
-#define __HE_FILE_H__
+#ifndef __RED_FILE_H__
+#define __RED_FILE_H__
 
 #include "red_context.h"
 
@@ -140,4 +140,4 @@ redFileOpenStdin(
 #endif
 
 
-#endif /* __HE_FILE_H__ */
+#endif /* __RED_FILE_H__ */

@@ -6,8 +6,8 @@
  * $Id: he_memory.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_MEMORY_H__
-#define __HE_MEMORY_H__
+#ifndef __RED_MEMORY_H__
+#define __RED_MEMORY_H__
 
 #include "red_context.h"
 #include "red_return.h"
@@ -88,4 +88,4 @@ redMemcmp(
 #endif
 
 
-#endif /* __HE_MEMORY_H__ */
+#endif /* __RED_MEMORY_H__ */

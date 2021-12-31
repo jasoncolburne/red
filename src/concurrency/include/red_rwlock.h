@@ -6,8 +6,8 @@
  * $Id: he_rwlock.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_RWLOCK_H__
-#define __HE_RWLOCK_H__
+#ifndef __RED_RWLOCK_H__
+#define __RED_RWLOCK_H__
 
 
 #include "red_context.h"
@@ -60,4 +60,4 @@ redRWLockGive(
 #endif
 
 
-#endif /* __HE_RWLOCK_H__ */
+#endif /* __RED_RWLOCK_H__ */

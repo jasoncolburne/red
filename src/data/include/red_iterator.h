@@ -6,8 +6,8 @@
  * $Id: he_iterator.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_ITERATOR_H__
-#define __HE_ITERATOR_H__
+#ifndef __RED_ITERATOR_H__
+#define __RED_ITERATOR_H__
 
 
 #include "red_context.h"
@@ -50,4 +50,4 @@ redIteratorNext(
 #endif
 
 
-#endif /* __HE_ITERATOR_H__ */
+#endif /* __RED_ITERATOR_H__ */

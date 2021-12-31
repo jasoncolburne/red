@@ -6,8 +6,8 @@
  * $Id: _he_stringbuffer.h 19 2010-04-22 08:27:08Z jason $
  */
 
-#ifndef ___HE_STRINGBUFFER_H__
-#define ___HE_STRINGBUFFER_H__
+#ifndef ___RED_STRINGBUFFER_H__
+#define ___RED_STRINGBUFFER_H__
 
 
 #include "red_stringbuffer.h"
@@ -55,4 +55,4 @@ struct _RedStringBuffer {
 #endif
 
 
-#endif /* ___HE_STRINGBUFFER_H__ */
+#endif /* ___RED_STRINGBUFFER_H__ */

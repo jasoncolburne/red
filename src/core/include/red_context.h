@@ -6,8 +6,8 @@
  * $Id: he_context.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_CONTEXT_H__
-#define __HE_CONTEXT_H__
+#ifndef __RED_CONTEXT_H__
+#define __RED_CONTEXT_H__
 
 
 #include "red_type.h"
@@ -72,4 +72,4 @@ redContextDestroy(
 #endif
 
 
-#endif /* __HE_CONTEXT_H__ */
+#endif /* __RED_CONTEXT_H__ */

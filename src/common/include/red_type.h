@@ -6,8 +6,8 @@
  * $Id: he_type.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_TYPE_H__
-#define __HE_TYPE_H__
+#ifndef __RED_TYPE_H__
+#define __RED_TYPE_H__
 
 
 #include <stdlib.h>	/* size_t, NULL, etc */
@@ -36,4 +36,4 @@ typedef signed short       red_i16;
 typedef signed char        red_i8;
 */
 
-#endif /* __HE_TYPE_H__ */
+#endif /* __RED_TYPE_H__ */

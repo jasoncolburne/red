@@ -6,8 +6,8 @@
  * $Id: _he_list.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef ___HE_LIST_H__
-#define ___HE_LIST_H__
+#ifndef ___RED_LIST_H__
+#define ___RED_LIST_H__
 
 
 #include "red_context.h"
@@ -46,4 +46,4 @@ redListNodeDestroy(
     );
 
 
-#endif /* ___HE_LIST_H__ */
+#endif /* ___RED_LIST_H__ */

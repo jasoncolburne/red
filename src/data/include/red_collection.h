@@ -6,8 +6,8 @@
  * $Id: he_collection.h 18 2010-04-17 05:57:03Z jason $
  */
 
-#ifndef __HE_COLLECTION_H__
-#define __HE_COLLECTION_H__
+#ifndef __RED_COLLECTION_H__
+#define __RED_COLLECTION_H__
 
 
 #include "red_context.h"
@@ -78,4 +78,4 @@ redCollectionTransform(
 #endif
 
 
-#endif /* __HE_COLLECTION_H__ */
+#endif /* __RED_COLLECTION_H__ */
