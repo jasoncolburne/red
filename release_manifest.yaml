@@ -1,5 +1,5 @@
-# Copyright (C) 2010-2021, Jason Colburne
-# All rights reseved.
+# Copyright (C) 2010-2022, Jason Colburne
+# All rights reserved.
 #
 # $Id: release_manifest.yaml 17 2010-04-17 04:35:54Z jason $
 
@@ -14,7 +14,7 @@ configuration:
 
 contents:
  redrum:
-  - { from: src/*/include/*.h,		  to: RED_TARGET/RED_BUILD/include/*,         permissions: 0440 }
+  - { from: src/*/include/*.h,		        to: RED_TARGET/RED_BUILD/include/*,         permissions: 0440 }
   - { from: readme.txt,               	  to: RED_TARGET/RED_BUILD/readme-red.txt,    permissions: 0440 }
   - { from: changelogtmp.txt,         	  to: RED_TARGET/RED_BUILD/changelog-red.txt, permissions: 0440 }
   - { from: lib/RED_TARGET/RED_BUILD/*.a, to: RED_TARGET/RED_BUILD/lib/*,             permissions: 0440 }
